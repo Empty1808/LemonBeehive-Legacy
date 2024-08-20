@@ -1,1 +1,1 @@
-**   LemonBeehive is currently being remade, and there won't be any new changes at the moment. If you're interested in the legacy version or the remake, feel free to join my [Discord](https://discord.com/invite/HmTSjUdspP).**
+**- LemonBeehive is currently being remade, and there won't be any new changes at the moment. If you're interested in the legacy version or the remake, feel free to join my [Discord](https://discord.com/invite/HmTSjUdspP).**
