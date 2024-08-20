@@ -1,0 +1,20 @@
+global:
+  back: '&7trở lại'
+  previous: '&7trang trước'
+  next: '&7trang sau'
+  add: '&athêm'
+friend:
+  sort: '&3phân loại: &f{sort}'
+  sort-type:
+    all: 'tất cả'
+    offline: 'ngoại tuyến'
+    online: 'trực tuyến'
+
+  title: ''
+  element: '&f{player-name}'
+  info: '&7danh sách bạn bè'
+  
+  add-friend:
+    title: ''
+    element: '&f{player-name}'
+    info: '&7danh sách người chơi'

@@ -1,0 +1,66 @@
+prefix: '&7[&6LemonBeehive&7]'
+parameter:
+  nobody: nobody
+
+  beehive: beehive
+  bees: bees
+
+  pollinate: pollinate
+  regeneration: regeneration
+  honey-capacity: honey capacity
+  beehive-capacity: beehive-capacity
+  bees-health: bees health
+  bees-stinger: bees stinger
+  bees-strength: bees strength
+
+  exp: experience
+  money: money
+  item: item
+storage-link:
+  start: |-
+    [TITLE]&6Link to Chest
+    &7Choose chest in %area%, [Shift] to cancel.
+  completed: |-
+    [TITLE]&2Successful Link
+    &7Linked to Chest at: {location}.
+  fail: |-
+    [TITLE]&4Fail Link
+    &7{reason}.
+  cancel: |-
+    [TITLE]&cCancel Link
+    &7Cancel link Status.
+  fail-reason:
+    out-area: 'Outside, maximum is {area}'
+    already-linked: 'This chest is already linked'
+  area: '{num}x{num}'
+  unset: '&cunknown'
+  location: '&7[&f{x}, {y}, {z}&7]'
+upgrade:
+  color:
+    exp: '&f'
+    money: '&f'
+    item: '&fx'
+  requirements:
+    start: '&7⌈ &3Requirements to Upgrade &7⌉'
+    line: ' &8‣ &f{requirement-value} &a{requirement-type}'
+    end: '&7⌊ &7═══════════════ &7⌋'
+  max-level: '&7⌈ &4Has been maximum Level! &7⌋'
+beehive:
+  item-interface:
+    display-name: '&r{random-name}'
+    lore:
+    - '&7Owner: &f{owner}'
+    - ''
+    - '&6Honey: &f{honey}&8/&f{max-honey}'
+    - '&eEntities: &f{entity}&8/&f{max-entity}'
+    glowing: false
+  no-owner: '&#a20000&on&#ae0f0f&oo&#ba1e1e&ob&#c52c2c&oo&#d13b3b&od&#dd4a4a&oy'
+crafting:
+  displayname: '&f>&7>&8> &6LemonBeehive &8<&7<&f<'
+hologram:
+  beehive:
+    - '&f>&7>&8> &6LemonBeehive &8<&7<&f<'
+    - '&7⌈ &6{beehive-displayname} &7⌋'
+    - '&7[&f{beehive-owner}&7]'
+  drop: '&6{beehive-displayname} &7[&f{beehive-owner}&7]'
+    

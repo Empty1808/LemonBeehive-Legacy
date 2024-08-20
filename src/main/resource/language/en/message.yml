@@ -1,0 +1,28 @@
+system:
+  only-owner: '&fYou can''t use this feature.'
+  not-owner: '&fYou can''t use this beehive, this beehive belongs to &4{owner}&f!'
+  not-enough: '&fYou are not qualified to do this!'
+  limit-beehive: '&fYou can''t place more than &4{beehive-limit} &fbeehive.'
+  cant-interact: '&fYou can''t interact this beehive, this beehive belongs to &4{owner}&f.'
+  cant-upgrade: none
+  success-upgrade: none
+  level-not-found: '&fThe specified level could not be found!'
+  blacklist-world: '&fYou can''t use in this world!'
+command:
+  not-permission: '&fYou are not permission to do this!'
+  only-player: '&fOnly players can use this command.'
+  not-online: '&fPlayer &4%player% &fnot online!'
+  notexist-player: '&fPlayer &4%player% &fdoes not exist on the server!'
+  reload-config: '&fConfiguration reloaded &c(&7Just config file and upgrade beehive&c)'
+  empty-hands: '&fYour hands can''t be empty!'
+  wrong-number: '&fWrong number'
+  wrong-command: '&fWrong command'
+input:
+  message: "&fEnter a valid value or use &e-cancel &fto cancel"
+  invalid: "&4{value} &fis not a valid value!"
+help:
+  get-command: '&eUse &f/%command% get &7<amount> &e- to get LemonBeehive.'
+  give-command: '&eUse &f/%command% give &7<player> <amount> &e- to give LemonBeehive.'
+  admin-command: '&eUse &f/%command% admin &e- to open admin gui.'
+  reload-command: '&eUse &f/%command% reload-config &e- to reload plugin.'
+  help-command: '&eUse &f/%command% help &e- for help.'

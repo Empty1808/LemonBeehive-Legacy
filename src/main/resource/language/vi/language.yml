@@ -1,0 +1,68 @@
+prefix: '&7[&6LemonBeehive&7]'
+parameter:
+  nobody: nobody
+
+  beehive: tổ ong
+  bees: đàn ong
+
+  pollinate: pollinate
+  regeneration: regeneration
+  honey-capacity: honey capacity
+  beehive-capacity: beehive-capacity
+  bees-health: bees health
+  bees-stinger: bees stinger
+  bees-strength: bees strength
+
+  exp: kinh nghiệm
+  money: tiền tệ
+  item: vật phẩm
+storage-link:
+  start: |-
+    [TITLE]&6Liên Kết Với Rương
+    &7Chọn một rương bên trong %area%, [Shift] để hủy bỏ.
+  completed: |-
+    [TITLE]&2Liên Kết Thành Công
+    &7Đã liên kết với rương tại: {location}.
+  fail: |-
+    [TITLE]&4Liên Kết Thất Bại
+    &7{reason}.
+  cancel: |-
+    [TITLE]&cHủy Liên Kết
+    &7Hủy trạng thái liên kết.
+  fail-reason:
+    out-area: 'ngoài tầm, tối đa là {area}'
+    already-linked: 'rương này đã được liên kết'
+  area: '{num}x{num}'
+  unset: '&cchưa thiết lập'
+  location: '&7[&f{x}, {y}, {z}&7]'
+upgrade:
+  color:
+    exp: '&f'
+    money: '&f'
+    item: '&fx'
+  requirements:
+    start: '&7⌈ &3Các yêu cầu để Nâng cấp &7⌉'
+    line: ' &8‣ &f{requirement-value} &a{requirement-type}'
+    end: '&7⌊ &7═══════════════ &7⌋'
+  max-level: '&7⌈ &4Đã đạt cấp độ tối đa! &7⌋'
+beehive:
+  item-interface:
+    display-name: '&r{random-name}'
+    lore:
+    - '&7Owner: &f{owner}'
+    - ''
+    - '&6Honey: &f{honey}&8/&f{max-honey}'
+    - '&eEntities: &f{entity}&8/&f{max-entity}'
+    glowing: false
+  no-owner: '&#a20000&on&#ae0f0f&oo&#ba1e1e&ob&#c52c2c&oo&#d13b3b&od&#dd4a4a&oy'
+crafting:
+  displayname: '&#fdfdfd>&#afafaf>&#606060> &#ff8000L&#ff8306e&#ff860dm&#ff8a13o&#ff8d1an&#ff9020B&#ff9327e&#ff962de&#ff9934h&#ff9d3ai&#ffa041v&#ffa347e
+  &#606060<&#afafaf<&#fdfdfd<'
+hologram:
+  beehive:
+    - '&#fdfdfd>&#afafaf>&#606060> &#ff8000L&#ff8306e&#ff860dm&#ff8a13o&#ff8d1an&#ff9020B&#ff9327e&#ff962de&#ff9934h&#ff9d3ai&#ffa041v&#ffa347e
+      &#606060<&#afafaf<&#fdfdfd<'
+    - '&#606060⌈ &6{beehive-displayname} &#606060⌋'
+    - '&#606060[&f{beehive-owner}&#606060]'
+  drop: '&6{beehive-displayname} &7[&f{beehive-owner}&7]'
+    

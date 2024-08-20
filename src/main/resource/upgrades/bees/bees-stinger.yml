@@ -1,0 +1,61 @@
+category: bees
+type: bees-stinger
+icon: item frame
+upgrades:
+  i-1:
+    level: 1
+    value: 1
+    requirements:
+      requirement-1:
+        type: EXP
+        value: 1750.0
+  i-2:
+    level: 2
+    value: 2.0
+    requirements:
+      method-210:
+        type: EXP
+        value: 4250.0
+  i-3:
+    level: 3
+    value: 4.0
+    requirements:
+      method-337:
+        type: EXP
+        value: 6500.0
+  i-4:
+    level: 4
+    value: 6.0
+    requirements:
+      method-809:
+        type: EXP
+        value: 10000.0
+      method-346:
+        type: ITEM
+        value:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: HONEYCOMB
+          amount: 32
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Honeycomb"}],"text":""}'
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+      method-49:
+        type: ITEM
+        value:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: HONEYCOMB
+          amount: 64
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Honeycomb"}],"text":""}'
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+  i-5:
+    level: 5
+    value: 10.0

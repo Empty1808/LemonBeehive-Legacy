@@ -1,0 +1,45 @@
+title: "{beehive-displayname} &7[&f{beehive-owner}&7]"
+size: 45
+items:
+  glass:
+    material: "black stained glass pane"
+    display-name: " "
+    slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 17, 18, 26, 27, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+    glowing: false
+  information:
+    material: "bee nest"
+    display-name: "&f>&7>&8> &3Thông tin &8<&7<&f<"
+    slot: 4
+    lores:
+      - "&7Chủ sở hữu: &f{beehive-owner}"
+      - " "
+      - "&6Mật ong: &f{honey}&8/&f{max-honey}"
+      - "&eĐàn ong: &f{entity}&8/&f{max-entity}"
+    glowing: false
+  friends:
+    material: "head:Kirby_Surprised"
+    slot-key: "friends"
+    slot: 20
+    display-name: "&f>&7>&8> &aDanh sách bạn bè &8<&7<&f<"
+    lores:
+      - "&7 Người trong danh sách này có thể"
+      - "&7thu hoạch mật ở tổ ong này."
+    glowing: false
+  upgrades:
+    material: "anvil"
+    slot-key: "upgrades"
+    display-name: "&f>&7>&8> &6Nâng cấp &8<&7<&f<"
+    slot: 22
+    lores:
+      - "&7Nâng cấp 'Tổ Ong' và 'Đàn Ong' của bạn"
+    glowing: false
+  link-to-chest:
+    material: "chest"
+    slot-key: "storage-link"
+    display-name: "&f>&7>&8> &eLiên kết với rương &8<&7<&f<"
+    slot: 24
+    lores:
+      - "&7Vị trí: {storage-location}"
+      - ""
+      - "&7 Liên kết với một rương trong %area%. Sau khi thu hoạch,"
+      - "&7vật phẩm sẽ tự động được đưa vào rương."

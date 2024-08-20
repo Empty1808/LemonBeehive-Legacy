@@ -1,0 +1,59 @@
+dace0e86-474a-4c55-b227-f73394e24c02:
+  uuid: dace0e86-474a-4c55-b227-f73394e24c02
+  tool:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: WOODEN_HOE
+  consumable: true
+  drops:
+    s-0:
+      rate: 0.95
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: HONEYCOMB
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Honeycomb"}],"text":""}'
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+    s-1:
+      rate: 0.3
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: HONEYCOMB
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Honeycomb"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+    s-2:
+      rate: 0.001
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_INGOT
+    s-3:
+      rate: 5.0E-4
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLD_INGOT
+    s-4:
+      rate: 1.0E-4
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND
+    s-5:
+      rate: 0.005
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD

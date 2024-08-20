@@ -1,0 +1,99 @@
+category: bees
+type: bees-strength
+icon: stone sword
+upgrades:
+  i-1:
+    level: 1
+    value: 2.0
+    requirements:
+      requirement-1:
+        type: EXP
+        value: 1000.0
+  i-2:
+    level: 2
+    value: 2.5
+    requirements:
+      method-735:
+        type: EXP
+        value: 1500.0
+  i-3:
+    level: 3
+    value: 3.0
+    requirements:
+      method-94:
+        type: EXP
+        value: 1700.0
+  i-4:
+    level: 4
+    value: 3.5
+    requirements:
+      method-569:
+        type: EXP
+        value: 2300.0
+  i-5:
+    level: 5
+    value: 4.0
+    requirements:
+      method-936:
+        type: EXP
+        value: 4500.0
+  i-6:
+    level: 6
+    value: 5.0
+    requirements:
+      method-253:
+        type: EXP
+        value: 5500.0
+  i-7:
+    level: 7
+    value: 6.0
+    requirements:
+      method-763:
+        type: EXP
+        value: 6750.0
+  i-8:
+    level: 8
+    value: 7.0
+    requirements:
+      method-558:
+        type: EXP
+        value: 7500.0
+  i-9:
+    level: 9
+    value: 8.0
+    requirements:
+      method-760:
+        type: EXP
+        value: 10000.0
+      method-353:
+        type: ITEM
+        value:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: HONEYCOMB
+          amount: 16
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Honeycomb"}],"text":""}'
+            ItemFlags:
+            - HIDE_ATTRIBUTES
+      method-698:
+        type: ITEM
+        value:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2586
+          type: HONEYCOMB
+          amount: 32
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Honeycomb"}],"text":""}'
+            enchants:
+              DURABILITY: 1
+            ItemFlags:
+            - HIDE_ENCHANTS
+            - HIDE_ATTRIBUTES
+  i-10:
+    level: 10
+    value: 10.0

@@ -1,0 +1,86 @@
+version: 1.0
+title: '&0Nâng cấp &7[&3Tổ Ong&7]'
+size: 45
+items:
+  black_stained_glass_pane:
+    material: black stained glass pane
+    display-name: ' '
+    slots: [0,  1,  2,  3,  4,  5,  6,  7,  8,
+            9,                              17,
+            18,                             26,
+            27, 28,                     34, 35,
+            36, 37, 38, 39, 40, 41, 42, 43, 44]
+    lores: []
+    glowing: false
+  red_stained_glass_pane:   
+    material: red stained glass pane
+    display-name: '&cBị khóa'
+    slots: [31, 32, 33]
+    lores: []
+    glowing: false
+  category-beehive:
+    material: beehive
+    display-name: '&f>&7>&8> &6Tổ Ong &8<&7<&f<'
+    slot: 29
+    lores: []
+    glowing: true
+  category-bees:
+    material: honeycomb block
+    slot-key: category-bees
+    display-name: '&f>&7>&8> &eBees &8<&7<&f<'
+    slot: 30
+    lores: []
+    glowing: false
+  pollinate:
+    material: oxeye daisy
+    slot-key: pollinate_upgrade
+    display-name: '&7[&3Nâng cấp&7] &fPollinate'
+    slot: 10
+    lores:
+    - ''
+    - '&6● &7Khi ong thụ phấn trong tổ ong,'
+    - '&7nhận được &f{pollinate_value} &7mật.'
+    - ''
+    - '{pollinate_requirements}'
+    glowing: false
+  regeneration:
+    material: apple
+    slot-key: regeneration_upgrade
+    display-name: '&7[&3Nâng cấp&7] &fRegeneration'
+    slot: 11
+    lores:
+    - ''
+    - '&6● &7Mỗi lần ong thụ phấn trong tổ,'
+    - '&7nó phục hồi &f{regeneration_value} &7máu'
+    - ''
+    - '{regeneration_requirements}'
+    glowing: true
+  beehive_capacity:
+    material: bee nest
+    slot-key: beehive-capacity_upgrade
+    display-name: '&7[&3Nâng cấp&7] &fBeehive capacity'
+    slot: 12
+    lores:
+    - ''
+    - '&6● &7Tổ ong có thể chứa tới &f{beehive-capacity_value} &7con ong.'
+    - ''
+    - '{beehive-capacity_requirements}'
+    glowing: false
+  honey_capacity:
+    material: barrel
+    slot-key: honey-capacity_upgrade
+    display-name: '&7[&3Nâng cấp&7] &fHoney capacity'
+    slot: 13
+    lores:
+    - ''
+    - '&6● &7Tổ ong có thể chứa tới &f{honey-capacity_value} &7mật' 
+    - ''
+    - '{honey-capacity_requirements}'
+    glowing: false
+  back:
+    material: HEAD:Red_Backward_2
+    slot-key: back-menu
+    display-name: '&7Quay lại'
+    slot: 36
+    lores: []
+    glowing: false

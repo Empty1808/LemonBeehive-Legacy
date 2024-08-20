@@ -1,0 +1,22 @@
+title: "{bee-displayname} &7[&f{bee-owner}&7]"
+size: 9
+items:
+  information:
+    material: "head:bee"
+    display-name: "&f>&7>&8> &3Information &8<&7<&f<"
+    slot: 0
+    lores:
+      - "&7Owner: &f{bee-owner}"
+      - " "
+      - "&4Health: &f{health}&8/&f{max-health}"
+      - "&9Attack Damage: &f{attack-damage}"
+      - "&7Stinger: &f{stinger}&8/&f{max-stinger}"
+    glowing: false
+  kill:
+    material: "head:Bee_Angry"
+    slot-key: "kill"
+    slot: 8
+    display-name: "&f>&7>&8> &cKill Your Bee &8<&7<&f<"
+    lores:
+      - "&7Kill this bee"
+    glowing: false

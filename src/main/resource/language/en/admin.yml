@@ -1,0 +1,84 @@
+global:
+  test: abc
+  enable: "&aenable"
+  disable: "&cdisable"
+  back: "&7back"
+  previous: "&7previous"
+  next: "&7next"
+  delete: "&cdelete"
+  create: "&acreate"
+
+  unset: "&cUnknown"
+  click-set: "&3|| &fClick to Set"
+  shift-right-set: "&3Shift + Right Click to Set" 
+  put-set: "&3|| &fPut in here to Set"
+main:
+  title: "&2Admin Settings"
+  manages: "&3Manage"
+  recipe-editor: "&3Crafting Editor"
+  reward-editor: "&3Harvest Editor"
+  upgrade-editor: "&3Upgrade Editor"
+  features: "&bFeatures"
+beehive-manage:
+  owner-list:
+    title: '&0Onwers List'
+    display-name: "&3{owner-displayname}"
+    lore: []
+  manages:
+    title: '&3{owner-displayname}'
+    clear: '&cdelete all data'
+    element:
+      display-name: "&r{beehive-displayname}"
+      lore:
+        - " "
+        - "&f-----[ &2Location &f]-----"
+        - "&aWorld: &f{beehive-world}"
+        - " &cx: &f{beehive-x}"
+        - " &ay: &f{beehive-y}"
+        - " &9z: &f{beehive-z}"
+        - " "
+        - "&4|| &fShift + Right Click to Delete"
+custom-recipe:
+  material-replace: "&3Material Replace: {material-replace}"
+  default-recipe: "&3Default recipe: {default-recipe}"
+  save: "&2Save Recipe"
+harvest-editor:
+  title: "&0Harvest Tools"
+  
+  editor:
+    title: "&0Harvest Tool Editor"
+    consumable: "&6Consumable: &f{consumable}"
+    drop: "&cDrop Editor"
+
+    drop-editor:
+      title: "&0Drop Editor"
+      rate: "&2Rate: &f{rate}"
+upgrade-editor:
+  value: "&6Value: &7[ &f{value} &7]"
+  amount: "&2Amount: &7[ &f{amount} &7]"
+  click-set: "&c|| &fClick to set Value"
+  locked: "&cLocked"
+
+  category:
+    title: "&0Category &4{category}"
+    element: "&7[&3Upgrade&7] &f{upgrade-type}"
+    beehives: "&f>&7>&8> &3Beehive &8<&7<&f<"
+    bees: "&f>&7>&8> &3Bees &8<&7<&f<"
+
+  upgrades:
+    title: "&0Upgrades List &7[&4{upgrade-type}&7]"
+    element: "&f⌈ &6{upgrade-type} &f⌋ &7lv.&f{upgrade-level}"
+
+    editor: 
+      title: "&0Editor &4{upgrade-type}&0, lv.&4{upgrade-level}"
+      requirements: "&cRequirements to Upgrade"
+
+  requirements:
+    title: "&0Requirements List"
+    type: "&3Type: &f{requirement-type}"
+    item-unset: "&cUnknown"
+    hotbar-set: "&c|| &fUse hotbar to Set"
+    drag_item-set: "&c|| &fDrag item in here to Set"
+
+    editor:
+      title: "&0Requirement Editor"

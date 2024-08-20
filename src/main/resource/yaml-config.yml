@@ -1,0 +1,29 @@
+default:
+  config: config.yml
+  random-name: random-name.yml
+data:
+  custom-recipe: data\custom-recipe.yml
+  harvest: data\harvest.yml
+  server-database: data\server-database.yml
+language:
+  config: language\config.yml
+  admin: language\en\admin.yml
+  language: language\en\language.yml
+  message: language\en\message.yml
+  gui: language\en\gui.yml
+  gui-folder:
+    beehive-menu: language\en\gui\beehive-menu.yml
+    bee-status: language\en\gui\bee-status.yml
+    category:
+      beehive: language\en\gui\upgrade-category\beehive.yml
+      bees: language\en\gui\upgrade-category\bees.yml
+upgrades:
+  beehive:
+    beehive-capacity: upgrades\beehive\beehive-capacity.yml
+    honey-capacity: upgrades\beehive\honey-capacity.yml
+    pollinate: upgrades\beehive\pollinate.yml
+    regeneration: upgrades\beehive\regeneration.yml
+  bees:
+    bees-health: upgrades\bees\bees-health.yml
+    bees-stinger: upgrades\bees\bees-stinger.yml
+    bees-strength: upgrades\bees\bees-strength.yml

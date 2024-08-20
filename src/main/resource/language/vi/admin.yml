@@ -1,0 +1,83 @@
+global:
+  enable: "&abật"
+  disable: "&ctắt"
+  back: "&7trở lại"
+  previous: "&7trước"
+  next: "&7sau"
+  delete: "&cxóa"
+  create: "&atạo mới"
+
+  unset: "&cchưa thiết lập"
+  click-set: "&3|| &fNhấn để thiết lập"
+  shift-right-set: "&3Shift + Chuột Trái để thiết lập" 
+  put-set: "&3|| &fĐặt vào đây để thiết lập"
+main:
+  title: "&2Admin Settings"
+  manages: "&3Quản lý các tổ ong"
+  recipe-editor: "&3Tùy chỉnh công thức Chế Tạo"
+  reward-editor: "&3Tùy chỉnh phần thưởng Thu Hoạch"
+  upgrade-editor: "&3Tùy chỉnh nâng cấp các Khả năng"
+  features: "&bTính năng"
+beehive-manage:
+  owner-list:
+    title: '&3Danh sách chủ sở hữu'
+    display-name: "&3{owner-displayname}"
+    lore: []
+  manages:
+    title: '&3{owner-displayname}'
+    clear: '&cXóa toàn bộ dữ liệu'
+    element:
+      display-name: "&r{beehive-displayname}"
+      lore:
+        - " "
+        - "&f-----[ &2Địa Điểm &f]-----"
+        - "&aThế giới: &f{beehive-world}"
+        - " &cx: &f{beehive-x}"
+        - " &ay: &f{beehive-y}"
+        - " &9z: &f{beehive-z}"
+        - " "
+        - "&4|| &fShift + Chuột phải để xóa"
+custom-recipe:
+  material-replace: "&3Thay thế vật liệu: {material-replace}"
+  save: "&2Lưu"
+harvest-editor:
+  title: "&0Danh sách các công cụ thu hoạch"
+  
+  editor:
+    title: "&0Chỉnh sửa công cụ thu hoạch"
+    consumable: "&6Có thể tiêu thụ: &f{consumable}"
+    drop: "&cChỉnh sửa vật phẩm rớt"
+
+    drop-editor:
+      title: "&0Chỉnh sửa vật phẩm rớt"
+      rate: "&2Tỉ lệ: &f{rate}"
+upgrade-editor:
+  value: "&6Giá trị: &7[ &f{value} &7]"
+  amount: "&2Số lượng: &7[ &f{amount} &7]"
+  click-set: "&c|| &fnhấn để thiết lập giá trị"
+  locked: "&ckhóa"
+
+  category:
+    title: "&0Danh mục &4{category}"
+    element: "&7[&3Nâng cấp&7] &f{upgrade-type}"
+    beehives: "&f>&7>&8> &3Tổ ong &8<&7<&f<"
+    bees: "&f>&7>&8> &3Đàn ong &8<&7<&f<"
+
+  upgrades:
+    title: "&0Danh sách nâng cấp &4{upgrade-type}"
+    element: "&f⌈ &6{upgrade-type} &f⌋ &7lv.&f{upgrade-level}"
+
+    editor: 
+      title: "&0Chỉnh sửa &4{upgrade-type}&0, lv.&4{upgrade-level}"
+      requirements: "&cCác yêu cầu để nâng cấp"
+
+  requirements:
+    title: "&0Danh sách yêu cầu"
+    type: "&3kiểu: &f{requirement-type}"
+    item-unset: "&cchưa thiết lập"
+    hotbar-set: "&c|| &fsử dụng hotbar để chọn kiểu"
+    drag_item-set: "&c|| &fthả vật phẩm vào để thiết lập"
+
+    editor:
+      title: "&0Chỉnh sửa yêu cầu"
+features-toggle: {}

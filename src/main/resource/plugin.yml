@@ -1,0 +1,28 @@
+main: nade.lemon.beehive.LemonBeehive
+name: LemonBeehive
+authors: [empty.1808]
+version: '2.0.8'
+api-version: 1.16
+softdepend: [Vault]
+developer-mode: false
+commands:
+  lemonbeehive: 
+    description: LemonBeehive commands
+    aliases: [lemonhive, beehive, hive]
+    
+
+permissions: 
+   LemonBeehive.admin:
+      default: op
+      children:
+         LemonBeehive.commands.*: true
+
+   LemonBeehive.commands.*:
+      default: op
+      children:
+         LemonBeehive.commands: true
+         LemonBeehive.commands.version: true
+         LemonBeehive.commands.get: true
+         LemonBeehive.commands.give: true
+         LemonBeehive.commands.admin: true
+         LemonBeehive.commands.reload-config: true

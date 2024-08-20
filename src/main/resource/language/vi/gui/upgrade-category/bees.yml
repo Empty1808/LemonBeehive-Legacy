@@ -1,0 +1,74 @@
+title: '&0Nâng cấp &7[&3Đàn Ong&7]'
+size: 45
+items:
+  black_stained_glass_pane:
+    material: black stained glass pane
+    display-name: ' '
+    slots: [0,  1,  2,  3,  4,  5,  6,  7,  8,
+            9,                              17,
+            18,                             26,
+            27, 28,                     34, 35,
+            36, 37, 38, 39, 40, 41, 42, 43, 44]
+    lores: []
+    glowing: false
+  red_stained_glass_pane:   
+    material: red stained glass pane
+    display-name: '&cBị khóa'
+    slots: [31, 32, 33]
+    lores: []
+    glowing: false
+  category-beehive:
+    material: beehive
+    slot-key: category-beehive
+    display-name: '&f>&7>&8> &eTổ Ong &8<&7<&f<'
+    slot: 29
+    lores: []
+    glowing: false
+  category-bees:
+    material: honeycomb block
+    display-name: '&f>&7>&8> &6Ong &8<&7<&f<'
+    slot: 30
+    lores: []
+    glowing: true
+  strength:
+    material: stone sword
+    slot-key: bees-strength_upgrade
+    display-name: '&7[&3Nâng cấp&7] &fStrength'
+    slot: 10
+    lores:
+    - ''
+    - '&6● &7Ong gây &f{bees-strength_value} &7sát thương bổ sung'
+    - ''
+    - '{bees-strength_requirements}'
+    item-flags:
+    - hide attributes
+    glowing: false
+  health:
+    material: apple
+    slot-key: bees-health_upgrade
+    display-name: '&7[&3Nâng cấp&7] &fHealth'
+    slot: 11
+    lores:
+    - ''
+    - '&6● &7Ong tăng &f{bees-health_value} &7sức khỏe tối đa'
+    - ''
+    - '{bees-health_requirements}'
+    glowing: false
+  stinger:
+    material: feather
+    slot-key: bees-stinger_upgrade
+    display-name: '&7[&3Nâng cấp&7] &fStinger'
+    slot: 12
+    lores:
+    - ''
+    - '&6● &7Ong có thể đốt lên đến &f{bees-stinger_value} &7lần'
+    - ''
+    - '{bees-stinger_requirements}'
+    glowing: false
+  back:
+    material: head:Red_Backward_2
+    slot-key: back-menu
+    display-name: '&7Quay lại'
+    slot: 36
+    lores: []
+    glowing: false

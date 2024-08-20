@@ -1,0 +1,49 @@
+general:
+  test: 'abc'
+  mysql:
+    enable: false
+    transfer: true
+    host: localhost
+    port: 3306
+    database: lemonbeehive
+    username: root
+    password: ''
+  world-blacklist:
+    enable: false
+    blacklist:
+    - world
+    - world_nether
+    - world_the_end
+  beehive-recipe:
+    enable: true
+    material-replace: true
+    default-recipe: true
+  notification:
+    title:
+      enable: true
+      fade-in: 20
+      stay: 40
+      fade-out: 20
+    message:
+      enable: true
+  storage-linked:
+    distance: 3
+  beehive:
+    display-hologram:
+      enable: true
+      style: always
+    drop-hologram:
+      enable: true
+    limit:
+      enable: true
+      default: 2
+      permission:
+      - LemonBeehive.limit.three;3
+      - LemonBeehive.limit.five;5
+      - LemonBeehive.limit.ten;10
+    dispensers: true
+    honey-multiplier: 5
+    open-action: shirt right click
+  entities:
+    bees-status:
+      enable: true

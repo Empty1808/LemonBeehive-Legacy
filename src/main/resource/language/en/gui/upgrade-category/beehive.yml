@@ -1,0 +1,86 @@
+version: 1.0
+title: '&0Upgrade &7[&3Beehive&7]'
+size: 45
+items:
+  black_stained_glass_pane:
+    material: black stained glass pane
+    display-name: ' '
+    slots: [0,  1,  2,  3,  4,  5,  6,  7,  8,
+            9,                              17,
+            18,                             26,
+            27, 28,                     34, 35,
+            36, 37, 38, 39, 40, 41, 42, 43, 44]
+    lores: []
+    glowing: false
+  red_stained_glass_pane:   
+    material: red stained glass pane
+    display-name: '&cLocked'
+    slots: [31, 32, 33]
+    lores: []
+    glowing: false
+  category-beehive:
+    material: beehive
+    display-name: '&f>&7>&8> &6Beehive &8<&7<&f<'
+    slot: 29
+    lores: []
+    glowing: true
+  category-bees:
+    material: honeycomb block
+    slot-key: category-bees
+    display-name: '&f>&7>&8> &eBees &8<&7<&f<'
+    slot: 30
+    lores: []
+    glowing: false
+  pollinate:
+    material: oxeye daisy
+    slot-key: pollinate_upgrade
+    display-name: '&7[&3Upgrade&7] &fPollinate'
+    slot: 10
+    lores:
+    - ''
+    - '&6● &7When bees pollinate in the hive, beehive'
+    - '&7gain &f{pollinate_value} &7honey.'
+    - ''
+    - '{pollinate_requirements}'
+    glowing: false
+  regeneration:
+    material: apple
+    slot-key: regeneration_upgrade
+    display-name: '&7[&3Upgrade&7] &fRegeneration'
+    slot: 11
+    lores:
+    - ''
+    - '&6● &7Every time the bee pollinates in'
+    - '&7the hive, it restores &f{regeneration_value} &7health'
+    - ''
+    - '{regeneration_requirements}'
+    glowing: true
+  beehive_capacity:
+    material: bee nest
+    slot-key: beehive-capacity_upgrade
+    display-name: '&7[&3Upgrade&7] &fBeehive capacity'
+    slot: 12
+    lores:
+    - ''
+    - '&6● &7Beehive can hold up to &f{beehive-capacity_value} &7bees.'
+    - ''
+    - '{beehive-capacity_requirements}'
+    glowing: false
+  honey_capacity:
+    material: barrel
+    slot-key: honey-capacity_upgrade
+    display-name: '&7[&3Upgrade&7] &fHoney capacity'
+    slot: 13
+    lores:
+    - ''
+    - '&6● &7Beehive can hold up to &f{honey-capacity_value} &7honey'
+    - ''
+    - '{honey-capacity_requirements}'
+    glowing: false
+  back:
+    material: HEAD:Red_Backward_2
+    slot-key: back-menu
+    display-name: '&7Back'
+    slot: 36
+    lores: []
+    glowing: false

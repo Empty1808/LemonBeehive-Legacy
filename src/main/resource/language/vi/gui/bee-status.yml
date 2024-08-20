@@ -1,0 +1,22 @@
+title: "%bee_displayname% &7[&f%bee_owner%&7]"
+size: 9
+items:
+  information:
+    material: "head:bee"
+    display-name: "&f>&7>&8> &3Thông tin &8<&7<&f<"
+    slot: 0
+    lores:
+      - "&7Chủ sở hữu: &f%bee_owner%"
+      - " "
+      - "&4Máu: &f%health%&8/&f%max_health%"
+      - "&9Sát thương: &f%attack_damage%"
+      - "&7Ngòi: &f%stinger%&8/&f%max_stinger%"
+    glowing: false
+  kill:
+    material: "head:Bee_Angry"
+    slot-key: "kill"
+    slot: 8
+    display-name: "&f>&7>&8> &cTự hủy &8<&7<&f<"
+    lores:
+      - "&7Giết con ong này"
+    glowing: false

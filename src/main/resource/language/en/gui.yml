@@ -1,0 +1,20 @@
+global:
+  back: '&7back'
+  previous: '&7previous'
+  next: '&7next'
+  add: '&aadd'
+friend:
+  sort: '&3Sort: &f{sort}'
+  sort-type:
+    all: 'all'
+    offline: 'offline'
+    online: 'online'
+
+  title: ''
+  element: '&f{player-name}'
+  info: '&7Friends List'
+  
+  add-friend:
+    title: ''
+    element: '&f{player-name}'
+    info: '&7Players List'
